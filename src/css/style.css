@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+}
+
+.header-content {
+    width: 90%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    border: 1px solid yellow;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #999;
+}
+
+.adress {
+    color: #777;
+}
+
+.personal {
+    color: #999;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.personal:hover {
+    color: #777;
+}
+
+.personal-name::after {
+    content: "|";
+    color: #777;
+    margin-left: 4px;
+}
+
+.nav-content {
+    width: 100%;
+}
+
+.nav-content ul {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    border: 1px solid red;
+}
+
+.nav-content ul li {
+    width: max-content;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-bottom: 4px solid #FFF;
+    color: #777;
+}
+
+.nav-content ul li:hover {
+    border-bottom: 3px solid #000;
+    color: #333;
+    transition: .4s;
+}
+
+.banner-area {
+    width: 100%;
+    height: 230px;
+    padding-top: 2px;
+    position: relative;
+}
+
+.banners {
+    width: 70%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border: 1px solid blue;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner {
+    min-width: 100%;
+    height: 95%;
+    border: 1px solid red;
+}
+
+.content-button {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    margin-left: 5%;
+}
+
+.prev-button,
+.next-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #999;
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    height: max-content;
+    padding-top: 24px;
+}
+
+.main-title {
+    width: 90%;
+    margin: auto;
+}
+
+.main-card-area {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    gap: 20px;
+}
+
+.card {
+    min-width: 200px;
+    height: 240px;
+    padding: 4px;
+    border-radius: 4px;
+    box-shadow: .3px .7px 2px #999;
+}
+
+.card:hover {
+    box-shadow: .5px .9px 4px #999;
+    transition: .4s;
+}
+
+.card-img {
+    width: 98%;
+    height: 140px;
+    margin: auto;
+    border-radius: 8px;
+    border: 1px solid #d3d3d3;
+
+    &img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.card-title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.card-desc {
+    font-size: 16px;
+    color: #777;
+}
+
+.card-price {
+    color: #35a317;
+}

@@ -1,0 +1,6 @@
+@media (max-width:645px) {
+    .banners {
+        background: #ddd;
+        overflow: hidden;
+    }
+}
