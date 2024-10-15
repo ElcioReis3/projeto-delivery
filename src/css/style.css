@@ -88,24 +88,22 @@ footer {
     width: 100%;
     height: 230px;
     padding-top: 2px;
-    position: relative;
 }
 
 .banners {
-    width: 70%;
-    height: inherit;
+    width: 500px;
+    height: 230px;
+    margin: auto;
     display: flex;
     align-items: center;
-    margin: auto;
     border: 1px solid blue;
-    overflow: hidden;
-    position: relative;
 }
 
 .banner {
-    min-width: 100%;
+    min-width: 500px;
     height: 95%;
     border: 1px solid red;
+    transform: translateX(0%);
 }
 
 .content-button {
@@ -114,7 +112,7 @@ footer {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 40%;
+    top: 50%;
     margin-left: 5%;
 }
 
